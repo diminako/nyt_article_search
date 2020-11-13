@@ -25,32 +25,40 @@
             </div>
             <div class="form-group">
                 <label for="formGroupExampleInput">Search Term:</label>
-                <input type="text" class="form-control" id="formGroupExampleInput"
+                <input id="searchTerm" type="text" class="form-control" id="formGroupExampleInput"
                     placeholder="Example input placeholder">
             </div>
             <div class="form-group">
-                <label for="formGroupExampleInput2">Number of Records to Retrieve</label>
-                <input type="text" class="form-control" id="formGroupExampleInput2"
-                    placeholder="Another input placeholder">
+                <label for="exampleFormControlSelect1">Example select</label>
+                <select class="form-control" id="exampleFormControlSelect1 recordNumber">
+                    <option>5</option>
+                    <option>10</option>
+                    <option>20</option>
+
+                </select>
             </div>
             <div class="form-group">
                 <label for="formGroupExampleInput">Start Year (Optional):</label>
-                <input type="text" class="form-control" id="formGroupExampleInput"
+                <input id="startYear" type="text" class="form-control" id="formGroupExampleInput"
                     placeholder="Example input placeholder">
             </div>
             <div class="form-group">
                 <label for="formGroupExampleInput2">End Year (Optional):</label>
-                <input type="text" class="form-control" id="formGroupExampleInput2"
+                <input id="endYear" type="text" class="form-control" id="formGroupExampleInput2"
                     placeholder="Another input placeholder">
             </div>
             <button id="search" type="button" class="btn btn-primary btn-lg">Search</button>
             <button id="clear" type="button" class="btn btn-primary btn-lg">Clear Results</button>
         </div>
     </form>
-    <form>
+
+    <form class="mt-3">
         <div class=" main-options">
             <div class="alert alert-dark" role="alert">
                 Top Articles
+            </div>
+            <div id="articleArea">
+                Articles Go Here
             </div>
 
         </div>
